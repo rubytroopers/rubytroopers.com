@@ -20,3 +20,8 @@
 # Ignore files compiled by webpacker.
 public/packs/*
 /vendor/node_modules/*
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
